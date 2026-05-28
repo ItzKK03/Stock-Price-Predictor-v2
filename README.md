@@ -68,8 +68,8 @@ $$L_{\delta}(y, f(x)) = \begin{cases} \frac{1}{2}(y - f(x))^2 & \text{for } |y -
 ### 2. Multi-Stage Walk-Forward Cross Validation
 To preserve authentic chronological causality and eliminate historical data lookahead bias, training utilizes a rolling 3-Fold **Walk-Forward Validation Framework**:
 * **Fold 1:** Train on [0 $\to$ 60%] of timeline $\to$ Validate on [60% $\to$ 72%].
-* **Fold 2:** Train on $[0 \to 72\%]$ of timeline $\to$ Validate on $[72\% \to 84\%]$.
-* **Fold 3:** Train on $[0 \to 84\%]$ of timeline $\to$ Validate on $[84\% \to 100\%]$.
+* **Fold 2:** Train on [0 $\to$ 72%] of timeline $\to$ Validate on [72% $\to$ 84%].
+* **Fold 3:** Train on [0 $\to$ 84%] of timeline $\to$ Validate on [84% $\to$ 100%].
 
 ### 3. Quantitative Feature Engineering Pipeline
 The feature extraction layer tracking computes 19 independent coordinates via the `pandas-ta` library engine:
