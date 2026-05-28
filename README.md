@@ -136,7 +136,7 @@ Stock-Price-Predictor-v2/
 
 ## ⚙️ Configuration Setup (`.env`)
 
-The system's optimization and dashboard execution bounds are controlled via a centralized configuration manager. Create a `.env` file in your root folder to customize pipeline hyperparameters:
+The system's execution pipeline is configured via a centralized config.py wrapper that reads from an environment .env file. To override defaults, configure a .env file in your root folder:
 
 ```ini
 # Target Asset Metrics
