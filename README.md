@@ -14,6 +14,7 @@ An enterprise-grade **AI-powered financial analytics and time-series forecasting
 
 This system coordinates multi-source data extraction pipelines, text analytics operations, and recurrent tensor deep learning models inside a modular, decoupled framework designed for high performance and clean segregation of concerns.
 
+```
 ┌────────────────────────┐      ┌────────────────────────┐
 │    Yahoo Finance API   │      │     News Aggregator    │
 │  (Historical Price)    │      │   (Financial Feeds)    │
@@ -44,6 +45,7 @@ This system coordinates multi-source data extraction pipelines, text analytics o
 │    System Metrics Dashboard   │
 │  (Streamlit UI & Backtesting) │
 └───────────────────────────────┘
+```
 
 ---
 
