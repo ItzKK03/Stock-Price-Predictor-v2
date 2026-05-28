@@ -1,0 +1,51 @@
+# ==============================================================================
+# PROJECT: Stock Price Predictor v2
+# FILE: requirements.txt
+# DESCRIPTION: Production-grade dependency configuration manifest.
+# AUTHOR: Kartik Kant (AI/ML Engineer)
+# COMPATIBILITY: Python 3.9+ (Verified)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 🖥️ CORE UI & VISUALIZATION INTERFACES
+# ------------------------------------------------------------------------------
+streamlit==1.31.1                 # Interactive analytical web application framework
+plotly==5.19.0                    # High-overhead interactive charting componentry
+
+# ------------------------------------------------------------------------------
+# 🤖 DEEP LEARNING FORECASTING MATRIX
+# ------------------------------------------------------------------------------
+tensorflow==2.16.1                # Backend tensor execution framework (BiLSTM & GRU)
+torch==2.2.0                      # Tensor engine backend required for NLP pipelines
+
+# ------------------------------------------------------------------------------
+# 🧠 NATURAL LANGUAGE PROCESSING (NLP) PIPELINES
+# ------------------------------------------------------------------------------
+transformers==4.38.2              # Hugging Face interface driving FinBERT headlines evaluation
+
+# ------------------------------------------------------------------------------
+# 📊 DATA ENGINEERING & CONCURRENCY CORE
+# ------------------------------------------------------------------------------
+pandas==2.2.1                     # Time-series matrix structuring and dataframe manipulation
+numpy==1.26.4                     # Optimized multi-dimensional numerical vector arithmetic
+scikit-learn==1.4.1               # MinMaxScaler normalization and evaluation metrics blocks
+scipy==1.12.0                     # Mathematical computational statistics layers
+joblib==1.3.2                     # Lightweight binary persistence layer for fitted scalers
+
+# ------------------------------------------------------------------------------
+# 📈 QUANTITATIVE & MULTI-SOURCE INGESTION ENDPOINTS
+# ------------------------------------------------------------------------------
+pandas-ta==0.3.14b                # Mathematical processing engine for quantitative indicators
+yfinance==0.2.36                  # Real-time stock histories and news metadata aggregator
+
+# ------------------------------------------------------------------------------
+# ⚙️ SYSTEMS DEPLOYMENT CONFIGURATIONS
+# ------------------------------------------------------------------------------
+python-dotenv==1.0.1              # Centralized management interface for .env files
+
+# ------------------------------------------------------------------------------
+# 🧪 RECURSIVE TEST VALIDATION MATRIX (DEVELOPMENT ENVIRONMENT)
+# ------------------------------------------------------------------------------
+pytest==8.0.2                     # Core execution harness for unit and integration checks
+pytest-cov==4.1.0                 # Automated coverage tracing tool for active script paths
+pytest-asyncio==0.23.5            # Asynchronous validation layer for parallel execution
