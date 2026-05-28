@@ -104,7 +104,7 @@ $$\text{Sharpe Ratio} = \frac{\mu_{\text{strategy}}}{\sigma_{\text{strategy}}} \
 Stock-Price-Predictor-v2/
 │
 ├── src/                            # Core Pipeline Layer Modules
-│   ├── init.py                 # Packages namespace control exposure
+│   ├── init.py                     # Packages namespace control exposure
 │   ├── backtesting.py              # Financial backtests, Sharpe ratios, drawdowns
 │   ├── data_collection.py          # Exponential backoff Yahoo Finance data downloads
 │   ├── data_preprocessing.py       # Left-join vector adjustments & time alignment
@@ -115,7 +115,7 @@ Stock-Price-Predictor-v2/
 │   └── sentiment_analysis.py       # Batch FinBERT NLP pipelines & pooling aggregation
 │
 ├── tests/                          # Automated Pytest Framework Layer
-│   ├── init.py                 # Testing environment namespace configurations
+│   ├── init.py                     # Testing environment namespace configurations
 │   ├── conftest.py                 # Deterministic time-series fixtures & mocking engines
 │   ├── test_backtesting.py         # Strategy pipeline verification checks
 │   ├── test_data_collection.py     # Network exception handles and schema check tests
