@@ -100,6 +100,7 @@ $$\text{Sharpe Ratio} = \frac{\mu_{\text{strategy}}}{\sigma_{\text{strategy}}} \
 
 ## 🏗️ Project Directory Structure
 
+```
 Stock-Price-Predictor-v2/
 │
 ├── src/                            # Core Pipeline Layer Modules
@@ -129,6 +130,7 @@ Stock-Price-Predictor-v2/
 ├── train_model.py                  # Core cross-validation pipeline optimization controller
 ├── requirements.txt                # Enterprise third-party dependency list
 └── README.md                       # Comprehensive project blueprint documentation
+```
 
 ---
 
